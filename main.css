@@ -1,0 +1,49 @@
+body{ background: rgb(252, 252, 252); margin: 0; padding: 0;}
+
+nav#welcomeMsg{
+  background: #363636;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav#welcomeMsg p{
+  color: #ececec;
+  font-size: 1.3rem;
+}
+
+div#mainContentWrapper{
+  max-width: 80%;
+  margin: 0 auto;
+}
+div#optionsContainer{
+  /* background: red;
+  padding: 10px;*/
+}
+
+div.clinicOptions{
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
+}
+
+div.clinicOptions a{
+  text-decoration: none;
+}
+
+div.clinicOptions img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+div.clinicOptions span{
+  font-size: 1.3rem;
+  margin: 10px 0;
+  color: rgb(112, 112, 112);
+}
